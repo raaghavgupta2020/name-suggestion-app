@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 } */
+
+body{
+  background-color: rgb(27, 16, 72);
+  overflow-x: hidden;
+  color:aliceblue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
