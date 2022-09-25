@@ -1,0 +1,12 @@
+.results-container{
+    
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    grid-gap:25px;
+    gap:25px;
+    grid-template-columns : repeat(5,minmax(0,1fr));
+    flex-wrap: wrap;
+    padding: 20px 40px;
+
+}

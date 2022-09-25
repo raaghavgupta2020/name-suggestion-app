@@ -1,9 +1,19 @@
 import React from "react";
+import NameCard from "../NameCard/NameCard";
+import './Results.css'
 
-const Results = () => {
+const Results = ({suggestedNames}) => {
+
+    console.log(suggestedNames)
+
+    // using Array.map function , Taken in a list and return modified list
+    const suggestedNameJSX = suggestedNames.map((eachName)=>{
+        return <NameCard eachName={eachName}/>
+    })
+
     return (
         <div className="results-container">
-            <p>These are the results</p>
+            {suggestedNameJSX}
         </div>
     );
 }
